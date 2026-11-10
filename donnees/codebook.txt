@@ -1,0 +1,20 @@
+# Format : colonne | libellé | valeur:modalité ; ... (ou « numérique »)
+# Traduit de bank-names.txt ; « unknown » est une modalité documentée (valeur manquante), pas un rejet.
+
+age | Âge (années) | numérique
+job | Profession | admin.:Employé administratif ; blue-collar:Ouvrier ; entrepreneur:Entrepreneur ; housemaid:Employé de maison ; management:Cadre ; retired:Retraité ; self-employed:Indépendant ; services:Services ; student:Étudiant ; technician:Technicien ; unemployed:Sans emploi ; unknown:Inconnu
+marital | Situation familiale | married:Marié ; single:Célibataire ; divorced:Divorcé ou veuf
+education | Niveau d'études | primary:Primaire ; secondary:Secondaire ; tertiary:Supérieur ; unknown:Inconnu
+default | Crédit en défaut | no:Non ; yes:Oui
+balance | Solde annuel moyen (euros) | numérique
+housing | Prêt immobilier | no:Non ; yes:Oui
+loan | Prêt personnel | no:Non ; yes:Oui
+contact | Canal du dernier contact | cellular:Portable ; telephone:Fixe ; unknown:Inconnu
+day | Jour du dernier contact | numérique
+month | Mois du dernier contact | jan:janvier ; feb:février ; mar:mars ; apr:avril ; may:mai ; jun:juin ; jul:juillet ; aug:août ; sep:septembre ; oct:octobre ; nov:novembre ; dec:décembre
+duration | Durée du dernier appel (s) | numérique
+campaign | Contacts pendant la campagne | numérique
+pdays | Jours depuis la campagne précédente | numérique
+previous | Contacts avant la campagne | numérique
+poutcome | Résultat de la campagne précédente | failure:Échec ; other:Autre ; success:Succès ; unknown:Inconnu
+y | Souscription d'un dépôt à terme | no:Non ; yes:Oui
